@@ -11,6 +11,7 @@ function App() {
       </div>
       
       <p>Hello,{name.toUpperCase()}</p>
+      {isLoggedIn ? <p>welcome back</p> : <p>Please Login</p>}
     </>
   );
 }
